@@ -110,7 +110,7 @@ function App() {
     const val = state.search[index];
     const repositoryName = val.substring(val.indexOf("/") + 1);
     const repositoryOwner = val.substring(0, val.indexOf("/"));
-    fetch("https://api.github.com/graphql", {
+    fetch(`${process.env.REACT_APP_GITHUB_API_URL}`, {
       method: "POST",
       headers: {
         Authorization: `Bearer ${process.env.REACT_APP_GITHUB_TOKEN}`,

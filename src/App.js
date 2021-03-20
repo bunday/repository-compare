@@ -158,7 +158,7 @@ function App() {
   return (
     <div className="relative bg-gray-200 h-screen overflow-hidden p-4">
       <Header />
-      <div className="flex flex-col-row">
+      <div className="flex">
         <RepositoryCard
           index={"first"}
           state={state}
@@ -174,7 +174,7 @@ function App() {
         />
       </div>
       <div className="py-8">
-        <p className="text-sm text-center">Developed by <a href="https://zadatolayinka.dev" target="_blank">Bundayy</a></p>
+        <p className="text-sm text-center">Developed by <a href="https://zadatolayinka.dev" rel="noreferrer" target="_blank">Bundayy</a></p>
       </div>
     </div>
   );

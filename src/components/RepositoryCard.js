@@ -46,7 +46,7 @@ export default function RepositoryCard({
             </div>
             <div className="flex justify-between px-12 py-4">
               <div className="w-full flex justify-center items-center">
-                <img width="100" src={currentTotal >= 2 ? "../icons/gold-medal.svg" : "../icons/silver-medal.svg"} />
+                <img alt="prize" width="100" src={currentTotal >= 2 ? "../icons/gold-medal.svg" : "../icons/silver-medal.svg"} />
               </div>
               <div className="w-full">
                 <DescriptionItem title='stars' value={repository.stargazerCount} icon='../icons/star.svg' />

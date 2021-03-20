@@ -173,6 +173,9 @@ function App() {
           fetchRepository={fetchRepository}
         />
       </div>
+      <div className="py-8">
+        <p className="text-sm text-center">Developed by <a href="https://zadatolayinka.dev" target="_blank">Bundayy</a></p>
+      </div>
     </div>
   );
 }

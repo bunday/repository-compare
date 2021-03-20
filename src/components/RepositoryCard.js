@@ -57,8 +57,8 @@ export default function RepositoryCard({
             </div>
           </div>
         )}
-      {loading && <p> Loading, Please wait</p>}
-      {error && <p> {error}</p>}
+      {loading && <p className="text-blue-500"> Loading, Please wait</p>}
+      {error && <p className="text-red-500"> {error}</p>}
       </div>
     </div>
   );

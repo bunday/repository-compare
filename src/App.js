@@ -156,7 +156,7 @@ function App() {
       });
   };
   return (
-    <div className="relative bg-gray-200 h-screen overflow-hidden p-4">
+    <div className="relative bg-gray-200 h-screen overflow-hidden overflow-scroll p-4">
       <Header />
       <div className="flex lg:flex-row flex-col">
         <RepositoryCard

@@ -40,13 +40,13 @@ export default function RepositoryCard({
               <span className="text-blue-500">{repository.nameWithOwner}</span>
             </div>
             <div>
-              <span className="text-gray-300">
+              <span className="text-gray-600">
                {repository.description}
               </span>
             </div>
             <div className="flex justify-between px-12 py-4">
               <div className="w-full flex justify-center items-center">
-                <img alt="prize" width="100" src={currentTotal >= 2 ? "../icons/gold-medal.svg" : "../icons/silver-medal.svg"} />
+                <img alt="prize" src={currentTotal >= 2 ? "../icons/gold-medal.svg" : "../icons/silver-medal.svg"} />
               </div>
               <div className="w-full">
                 <DescriptionItem title='stars' value={repository.stargazerCount} icon='../icons/star.svg' />

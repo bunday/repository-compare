@@ -158,7 +158,7 @@ function App() {
   return (
     <div className="relative bg-gray-200 h-screen overflow-hidden p-4">
       <Header />
-      <div className="flex">
+      <div className="flex lg:flex-row flex-col">
         <RepositoryCard
           index={"first"}
           state={state}

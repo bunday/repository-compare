@@ -18,7 +18,7 @@ export default function StatCard({ state }) {
     });
   };
   return (
-    <div className="w-1/5">
+    <div className="lg:w-1/5 w-full flex flex-col items-center py-4">
       <div className="flex justify-center items-center">
         <span> VS </span>
       </div>

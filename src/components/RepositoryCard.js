@@ -14,7 +14,7 @@ export default function RepositoryCard({
   const { result } = state;
   let currentTotal = result ? result.filter(res => res[index] === 1).length : 0;
   return (
-    <div className="w-2/5">
+    <div className="lg:w-2/5 w-full">
       <div className="flex">
         <div className="w-3/4 bg-white mr-8 border border-gray-300 rounded flex">
           <span className="bg-gray-300 p-2"> https://github.com/</span>
